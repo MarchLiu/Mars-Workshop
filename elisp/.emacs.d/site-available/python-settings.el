@@ -37,7 +37,7 @@
 ;;     (require 'virtualenv))
 (setq ipython-command "/usr/bin/ipython")
 (setq py-python-command "/usr/bin/python2.7")
-(setq py-python-command-args '("--colors" "LightBG"))
+;; (setq py-python-command-args '("--colors" "LightBG"))
 (require 'ipython)
 ;; (add-to-list 'load-path "~/.emacs.d/site-lisp/pymacs")
 ;; (require 'pymacs)
