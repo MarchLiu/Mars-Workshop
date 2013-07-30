@@ -1,7 +1,7 @@
 (defvar sls-mode-hook nil)
 
 (defun check-first-line (content)
-  (let ((first-line (car (split-string (content) "\n"))))
+  (let ((first-line (car (split-string content "\n"))))
 	(if (or (string-equal "#!py" first-line) (string-equal "#!pydsl" first-line))
 		(python-mode)
 	  (yaml-mode))))
