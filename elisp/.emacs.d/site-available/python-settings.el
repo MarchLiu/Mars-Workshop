@@ -33,10 +33,10 @@
   ; make paren matches visible
   (show-paren-mode 1))
 
-(if (>= emacs-major-version 23)
-    (require 'virtualenv))
-(setq ipython-command "/opt/local/bin/ipython")
-(setq py-python-command "/opt/local/bin/python2.7")
+;; (if (>= emacs-major-version 23)
+;;     (require 'virtualenv))
+(setq ipython-command "/usr/bin/ipython")
+(setq py-python-command "/usr/bin/python2.7")
 (setq py-python-command-args '("--colors" "LightBG"))
 (require 'ipython)
 ;; (add-to-list 'load-path "~/.emacs.d/site-lisp/pymacs")
