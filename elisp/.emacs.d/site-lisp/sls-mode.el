@@ -1,3 +1,4 @@
+;; require yaml-mode and python-mode
 (defvar sls-mode-hook nil)
 
 (defun check-first-line (content)
